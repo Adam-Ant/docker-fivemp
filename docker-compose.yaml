@@ -1,0 +1,11 @@
+version: '2'
+services:
+  FiveMP:
+    image: adamant/fivemp
+    container_name: FiveMP
+    volumes:
+     - /volumes/FiveMP:/fivemp
+
+    ports:
+     - "2322:2322/udp"
+
